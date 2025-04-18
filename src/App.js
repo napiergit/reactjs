@@ -5,7 +5,7 @@ import Home from "./Home";
 
 function App() {
   return (
-    <HashRouter basename="/reactjs">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<div>1</div>} />
         <Route path="/2/" element={<div>2</div>} />
